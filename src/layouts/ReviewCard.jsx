@@ -11,9 +11,9 @@ const ReviewCard = (props) => {
           similique fugiat ea corporisipsum dolor.
         </p>
       </div>
-      <div className=" flex flex-row justify-center items-center mt-4 gap-4"> 
+      <div className=" flex flex-row justify-center items-center mt-4 gap-4">
         <img className="rounded-full w-1/4" src={props.img} alt="image" />
-        <h3 className="font-semibold" >{props.name}</h3>
+        <h3 className="font-semibold">{props.name}</h3>
       </div>
     </div>
   );

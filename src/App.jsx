@@ -1,11 +1,10 @@
-import React from 'react';
-import Navbar from './components/navbar';
-import Home from './components/Home';
-import Menu from './components/Menu';
-import About from './components/About';
-import Reviews from './components/Reviews';
-import Footer from './components/Footer';
-
+import React from "react";
+import Navbar from "./components/navbar";
+import Home from "./components/Home";
+import Menu from "./components/Menu";
+import About from "./components/About";
+import Reviews from "./components/Reviews";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -25,13 +24,11 @@ const App = () => {
         <div id="reviews">
           <Reviews />
         </div>
-    
       </main>
 
       <Footer />
-  
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
